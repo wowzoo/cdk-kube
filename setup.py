@@ -19,7 +19,10 @@ setuptools.setup(
     packages=setuptools.find_packages(where="wowzoo_cluster"),
 
     install_requires=[
-        "aws-cdk.core==1.81.0",
+        "aws-cdk.core==1.82.0",
+        "aws-cdk.aws-ec2==1.82.0",
+        "aws-cdk.aws-eks==1.82.0",
+        "aws-cdk.aws-autoscaling==1.82.0",
     ],
 
     python_requires=">=3.6",
